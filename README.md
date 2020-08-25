@@ -20,3 +20,5 @@ Note: - Add kexts: FakePCIID.kext and FakePCIID_Intel_HDMI_Audio.kext fix audio 
         layout-id data 01000000
       - Off SIP:
       csr-active-config data E7030000
+      
+Link fix Audio: https://www.reddit.com/r/hackintosh/comments/hmnzj8/catalina_1055_gigbyte_z490gamingx_alc1200a_oc_059/ 
