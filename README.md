@@ -15,6 +15,8 @@ Note: - Add kexts: FakePCIID.kext and FakePCIID_Intel_HDMI_Audio.kext fix audio 
 
         DeviceProperties
         
-        PciRoot(0x0)/Pci(0x1F,0x3)
+        PciRoot(0x0)/Pci(0x1b,0x0) => PciRoot(0x0)/Pci(0x1F,0x3)
         device-id data 70A10000
         layout-id data 01000000
+      - Off SIP:
+      csr-active-config data E7030000
